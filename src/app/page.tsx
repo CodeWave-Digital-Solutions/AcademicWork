@@ -14,7 +14,7 @@ export default function Home() {
               <p className="mt-4 text-lg font-normal text-gray-400 sm:mt-8">
                 Aqui no{' '}
                 <span className="font-bold uppercase text-white">
-                  site do nego
+                  AcademicWork
                 </span>{' '}
                 resolvemos seu problema, com os melhores e mais capacitados
                 profissionais.
