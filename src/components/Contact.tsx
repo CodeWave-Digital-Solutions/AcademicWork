@@ -1,8 +1,7 @@
 export function Contact() {
   const number = '5588988595172'
 
-  const message =
-    'Olá, gostaria de fazer um orçamento de trabalho acadêmico! 📚📝'
+  const message = 'Olá, gostaria de fazer um orçamento de trabalho acadêmico!'
 
   const WhatsApp = `https://api.whatsapp.com/send?phone=${number}&text=${message}`
 
