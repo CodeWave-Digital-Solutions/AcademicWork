@@ -1,5 +1,6 @@
 import { Aside } from '@/components/Aside'
 import { Rating } from '@/components/Rating'
+import { Services } from '@/components/Services'
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
               </p>
 
               <Rating />
+
+              <Services />
             </div>
 
             <Aside />
