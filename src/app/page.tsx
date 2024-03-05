@@ -1,15 +1,16 @@
 import { Aside } from '@/components/Aside'
+import { Choose } from '@/components/Choose'
 import { Rating } from '@/components/Rating'
 import { Services } from '@/components/Services'
 
 export default function Home() {
   return (
     <main className="">
-      <section className="relative py-12 overflow-hidden bg-black sm:pb-12 lg:pb-12 xl:pb-12 h-screen">
-        <div className="px-4 mx-auto relativea sm:px-6 lg:px-8 max-w-7xl">
+      <section className="relative py-12 bg-black sm:pb-12 lg:pb-12 xl:pb-12 h-full">
+        <div className="px-4 mx-auto relative sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid items-center grid-cols-1 gap-y-12 lg:grid-cols-2 gap-x-16">
             <div>
-              <h1 className="text-4xl font-normal text-white sm:text-5xl lg:text-6xl xl:text-7xl">
+              <h1 className="text-4xl font-normal text-white sm:text-5xl lg:text-6xl xl:text-6xl">
                 Dificuldade com trabalhos acadêmicos?
               </h1>
               <p className="mt-4 text-lg font-normal text-gray-400 sm:mt-8">
@@ -20,6 +21,8 @@ export default function Home() {
               <Rating />
 
               <Services />
+
+              <Choose />
             </div>
 
             <Aside />

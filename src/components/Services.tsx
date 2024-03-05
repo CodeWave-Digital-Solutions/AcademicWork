@@ -1,7 +1,7 @@
 export function Services() {
   return (
     <div>
-      <h2 className="text-3xl mt-7 font-normal text-white pb-5 sm:text-3xl lg:text-3xl xl:text-6xl">
+      <h2 className="text-2xl mt-7 font-normal text-white pb-5 sm:text-2xl lg:text-2xl xl:text-2xl">
         Serviços:
       </h2>
 
