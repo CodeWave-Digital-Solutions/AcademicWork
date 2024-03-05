@@ -1,3 +1,5 @@
+import Education from '../assets/education.png'
+
 export function Aside() {
   return (
     <div className="relative">
@@ -30,20 +32,18 @@ export function Aside() {
           </defs>
         </svg>
       </div>
-
       <div className="absolute inset-0">
+        <h2 className="text-3xl font-normal text-white pb-5 sm:text-3xl lg:text-3xl xl:text-6xl">
+          Trabalhamos com:
+        </h2>
+
         <img
-          className="object-cover w-full h-full opacity-50"
-          src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png"
-          alt=""
+          className="object-cover self-center w-full rounded-lg shadow-2xl shadow-white/50 sm:w-full lg:w-full xl:w-full"
+          src={Education.src}
+          alt="Education image"
         />
       </div>
-
-      <img
-        className="relative w-full max-w-md mx-auto"
-        src="https://landingfoliocom.imgix.net/store/collection/dusk/images/hero/2/illustration.png"
-        alt=""
-      />
+      overflow-hidden
     </div>
   )
 }

@@ -2,7 +2,7 @@ export function Rating() {
   return (
     <div className="mt-8 sm:mt-12">
       <p className="text-lg font-normal text-white">
-        Mais de 3000 trabalhos entregues
+        Cerca de 3000+ trabalhos entregues
       </p>
 
       <div className="flex items-center mt-3">
@@ -32,10 +32,10 @@ export function Rating() {
             </defs>
           </svg>
         </div>
-        <span className="ml-2 text-base font-normal text-white"> 4.1/5 </span>
+        <span className="ml-2 text-base font-normal text-white"> 4.5/5 </span>
         <span className="ml-1 text-base font-normal text-gray-500">
           {' '}
-          (14k Reviews){' '}
+          (2700+ Reviews){' '}
         </span>
       </div>
     </div>
