@@ -3,8 +3,19 @@ import { Contact } from './Contact'
 
 export function Aside() {
   return (
-    <div className="flex flex-col gap-y-7">
+    <div className="flex flex-col gap-y-7 relative">
       <Contact />
+
+      <div className="">
+        <h2 className="text-3xl font-normal text-white pb-5 sm:text-3xl lg:text-3xl xl:text-6xl">
+          Trabalhamos com:
+        </h2>
+        <img
+          className="object-cover self-center w-full rounded-lg shadow-2xl shadow-white/50 sm:w-full lg:w-full xl:w-full"
+          src={Education.src}
+          alt="Education image"
+        />
+      </div>
 
       <div className="relative">
         <div className="absolute inset-0">
@@ -35,17 +46,6 @@ export function Aside() {
               </linearGradient>
             </defs>
           </svg>
-        </div>
-
-        <div className="absolute inset-0">
-          <h2 className="text-3xl font-normal text-white pb-5 sm:text-3xl lg:text-3xl xl:text-6xl">
-            Trabalhamos com:
-          </h2>
-          <img
-            className="object-cover self-center w-full rounded-lg shadow-2xl shadow-white/50 sm:w-full lg:w-full xl:w-full"
-            src={Education.src}
-            alt="Education image"
-          />
         </div>
       </div>
     </div>
