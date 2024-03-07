@@ -1,4 +1,4 @@
-import Education from '../assets/education.png'
+import Image from 'next/image'
 import { Contact } from './Contact'
 
 export function Aside() {
@@ -10,10 +10,13 @@ export function Aside() {
         <h2 className="text-3xl font-normal text-white pb-5 sm:text-3xl lg:text-3xl xl:text-6xl">
           Trabalhamos com:
         </h2>
-        <img
-          className="object-cover self-center w-full rounded-lg shadow-2xl shadow-white/50 sm:w-full lg:w-full xl:w-full"
-          src={Education.src}
+
+        <Image
+          src="/imgs/education.png"
           alt="Education image"
+          width={444}
+          height={536}
+          className="object-cover self-center w-full rounded-lg shadow-2xl shadow-white/50 sm:w-full lg:w-full xl:w-full"
         />
       </div>
 
